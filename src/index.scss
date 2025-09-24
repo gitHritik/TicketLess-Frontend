@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none; 
+    }
+}
+
+/* *{
+  background-color: #ffffff;
+} */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.css-13xfq8m-MuiTabPanel-root {
+  padding: 0px !important ;
+}
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:rgb(10, 8, 4) !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(14, 14, 8);
+  font-size: 32px;
+
+}
+
+ .slick-prev {
+  left: -34px;
+}
+/*
+.slick-next {
+  right: -30px;
+} */
+
+.custom-dropdown { 
+  .p-dropdown-items {
+    justify-content: center !important;
+    position: absolute !important;
+    z-index: 22 !important;
+    flex-direction: column !important;
+    display: flex !important;
+    height: 120px !important;
+    width: 100% !important;
+    align-items: center !important;
+    background: white !important;
+    padding-right: 11px;
+  }
+  
+  
+}
+  
